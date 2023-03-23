@@ -1,0 +1,18 @@
+.a{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: auto;
+    animation-name: title;
+    animation-duration: 5s;
+}
+@keyframes title{
+    to{
+       background-color: aqua;
+       box-shadow: 0px 0px 20px 40px cyan;
+    }
+}
+body{
+    background-color: rgb(73, 47, 47);
+}
